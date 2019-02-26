@@ -14,6 +14,7 @@ add_action(
         class_alias( 'Kirki\Control\Code', 'Kirki_Control_Code' );
     }
 );
+class_alias( 'Kirki\Field\Code', 'Kirki_Field_Code' );
 
 add_action(
     'customize_controls_print_footer_scripts',
